@@ -25,7 +25,7 @@ export async function generateStaticParams(): Promise<Props["params"][]> {
 }
 
 export default async function PostPage({ params }: Props) {
-  const slug = params?.slug;
+  const { slug } = await params;
   const project = allProjects.find((project) => project.slug === slug);
 
   if (!project) {

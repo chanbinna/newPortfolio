@@ -3,7 +3,7 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Resume", href: "/projects" },
+  { name: "Resume",  href: "/resume.pdf", target: "_blank" },
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
@@ -35,15 +35,8 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
-          I'm building{" "}
-          <Link
-            target="_blank"
-            href="https://unkey.dev"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            unkey.dev
-          </Link> to solve API authentication and authorization for developers.
+        <h2 className="text-sm text-zinc-500 max-w-[55%] mx-auto">
+          Hello, 👋🏻 I'm UC San Diego Mathematics and Computer Science student with expertise in full-stack development, seeking a software engineer role. Experienced in building scalable applications and innovative solutions.
         </h2>
       </div>
     </div>
