@@ -9,12 +9,12 @@ export const metadata: Metadata = {
     default: "DevChanbin",
     template: "%s | chronark.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "UC San Diego Mathematics and Computer Science student with expertise in full-stack development, seeking a software engineer role.",
   openGraph: {
-    title: "chronark.com",
-    description: "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    title: "devchanbin.vercel.app",
+    description: "UC San Diego Mathematics and Computer Science student with expertise in full-stack development, seeking a software engineer role.",
+    url: "https://devchanbin.vercel.app/",
+    siteName: "devchanbin.vercel.app",
     images: [
       {
         url: "https://chronark.com/og.png",
