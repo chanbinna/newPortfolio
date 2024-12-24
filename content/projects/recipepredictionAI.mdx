@@ -1,0 +1,90 @@
+---
+title: Recipe Rating Prediction & Personalization AI
+description: Developed machine learning models to predict recipe ratings and classify user preferences using the extensive Food.com dataset. 
+date: "2024-12-10"
+repository: chanbinna/cse258-fa24
+published: true
+
+---
+
+
+### **Description**  
+This project dives into the world of culinary AI by analyzing the extensive **Food.com** dataset containing 230K+ recipes and 1.1M+ user interactions. The primary goals were to predict recipe ratings based on textual and numerical data and to classify user preferences (ratings ≥ 4) with machine learning models. By bridging data science and AI, the project offers valuable insights into user behavior and personalized recommendations, creating potential applications for food platforms and recipe discovery.
+
+---
+
+### **My Role**  
+As the lead developer of this project, I spearheaded the following:  
+
+- **Machine Learning Pipeline**:  
+  - Built a **rating prediction model** using **TF-IDF vectorization** of review text and Ridge regression to identify factors affecting user ratings.  
+  - Developed a **Random Forest Classifier** for preference prediction, achieving a high F1 score of **0.96**, emphasizing user-specific features like ingredient alignment and average ratings.  
+
+- **Data Engineering**:  
+  - Preprocessed the **Food.com dataset**, transforming raw data into actionable features, such as ingredient vectors, user interaction histories, and review sentiments.  
+  - Applied **Jaccard Similarity** for personalized recipe recommendations based on ingredient overlap.  
+
+- **Feature Engineering**:  
+  - Analyzed textual data (reviews, tags, and ingredients) and identified key terms influencing recipe ratings, such as “great” (positive) and “worst” (negative).  
+  - Highlighted the impact of user-specific features like **average ratings** and **interaction history** on preference prediction.  
+
+- **Visualization & Insights**:  
+  - Created detailed visualizations, including correlation matrices and word clouds, to present actionable insights on rating trends and ingredient importance.  
+  - Emphasized the limitations of numerical features, showcasing how textual data drives better predictions.  
+
+---
+
+### **Features**  
+
+- **Rating Prediction**:  
+  - Predicted recipe ratings from review text with an MSE of **1.2823** using Ridge regression.  
+  - Discovered significant textual patterns, with words like “thank” and “delicious” correlating strongly with higher ratings.  
+
+- **User Preference Classification**:  
+  - Developed a Random Forest Classifier to predict whether a user would give a high rating (≥4).  
+  - Integrated features like Jaccard similarity for ingredient alignment, average user ratings, and recipe interaction counts.  
+
+- **Recommendation System**:  
+  - Personalized recipe recommendations based on ingredient similarity, improving user engagement and discovery.  
+
+---
+
+### **Development Highlights**  
+
+- **Text Mining & TF-IDF**: Extracted meaningful features from textual data, transforming them into vectors to uncover latent patterns in user reviews.  
+- **Multi-Model Approach**: Combined regression and classification techniques to explore different facets of the dataset, from numeric ratings to binary preferences.  
+- **Data Visualization**: Highlighted trends and insights through interactive plots, showcasing ingredient popularity, rating distributions, and textual correlations.  
+
+---
+
+### **Technologies**  
+
+- **Programming Language**: Python  
+- **Machine Learning Libraries**: Scikit-learn, Pandas, NumPy  
+- **Visualization Tools**: Matplotlib, Seaborn  
+- **Data Sources**: Food.com Dataset (Kaggle)  
+
+---
+
+### **Impact**  
+
+- **Enhanced Personalization**: Provided insights into user behavior and personalized recipe recommendations.  
+- **Practical Applications**: Demonstrated how textual and interaction data can predict user preferences and improve engagement for food platforms.  
+- **Data-Driven Insights**: Validated the importance of review text and user-specific features, paving the way for more effective recommendation systems in the culinary domain.  
+
+---
+
+### **Future Plans**  
+
+- Expand the analysis to include **sentiment analysis** for more nuanced rating predictions.  
+- Integrate additional features, such as cuisine preferences and dietary needs, to improve recommendation diversity.  
+- Deploy the models on a user-facing platform for real-world testing and validation.  
+
+---
+
+### **Learn More**  
+
+- [Food.com Dataset on Kaggle](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)  
+- [Explore the Project on GitHub](https://github.com/chanbinna/cse258-fa24)  
+
+This project highlights my expertise in machine learning, data engineering, and feature extraction, demonstrating the ability to transform raw data into actionable insights and build models for real-world applications.  

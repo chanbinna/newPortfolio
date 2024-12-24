@@ -11,26 +11,26 @@
       "static/chunks/main-app.js",
       "static/chunks/app/projects/layout.js"
     ],
-    "/projects/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/page.js"
-    ],
     "/projects/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/projects/[slug]/page.css",
       "static/chunks/app/projects/[slug]/page.js"
     ],
-    "/page": [
+    "/projects/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/projects/page.js"
     ],
     "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ]
   }
 }

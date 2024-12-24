@@ -1,6 +1,23 @@
 {
-  "version": 3,
+  "sortedMiddleware": [],
   "middleware": {},
-  "functions": {},
-  "sortedMiddleware": []
+  "functions": {
+    "/api/incr": {
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/incr.js"
+      ],
+      "name": "pages/api/incr",
+      "page": "/api/incr",
+      "matchers": [
+        {
+          "regexp": "^/api/incr$",
+          "originalSource": "/api/incr"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "version": 2
 }
